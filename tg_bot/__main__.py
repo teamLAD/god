@@ -19,7 +19,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-ʜᴇʟʟᴏ(https://telegra.ph/file/eb51a7317630a724c8e29.jpg) {}, ᴀᴍ {}!
+ʜᴇʟʟᴏ [✅](https://telegra.ph/file/eb51a7317630a724c8e29.jpg) {}, ᴀᴍ {}!
 
 
 
@@ -31,7 +31,7 @@ PM_START_TEXT = """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
+I'm a group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
  - /start: start the bot
