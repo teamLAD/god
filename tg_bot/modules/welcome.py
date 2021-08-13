@@ -529,7 +529,7 @@ __help__ = """
 
 """.format(WELC_HELP_TXT)
 
-__mod_name__ = "Greetings"
+__mod_name__ = "ɢʀᴇᴇᴛɪɴɢs"
 
 NEW_MEM_HANDLER = MessageHandler(Filters.status_update.new_chat_members, new_member)
 LEFT_MEM_HANDLER = MessageHandler(Filters.status_update.left_chat_member, left_member)
