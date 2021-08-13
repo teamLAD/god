@@ -146,7 +146,7 @@ if is_module_loaded(FILENAME):
         return build_curr_disabled(chat_id)
 
 
-    __mod_name__ = "Disable"
+    __mod_name__ = "ᴅɪsᴀʙʟᴇ"
 
     __help__ = """
  - /cmds: check the current status of disabled commands
