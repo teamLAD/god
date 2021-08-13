@@ -35,8 +35,8 @@ def check_flood(bot: Bot, update: Update) -> str:
 
     try:
         chat.kick_member(user.id)
-        msg.reply_text("ഫ്ലഡ് ചെയ്യുന്നോ... നിങ്ങൾക്കായി ഒരു കണ്ടം ഒരുക്കിയിട്ടുണ്ട്...  "
-                       "ഒന്ന് ഓടിയിട്ട് വരൂ...")
+        msg.reply_text("ᴜғғ ғʟᴏᴏᴅɪɴɢ...ʙɪᴇ ғʀᴏᴍ sᴀғᴇᴢᴏɴᴇ...")
+                       
 
         return "<b>{}:</b>" \
                "\n#BANNED" \
@@ -127,7 +127,7 @@ __help__ = """
  - /setflood <int/'no'/'off'>: enables or disables flood control
 """
 
-__mod_name__ = "AntiFlood"
+__mod_name__ = "ᴀɴᴛɪғʟᴏᴏᴅ"
 
 FLOOD_BAN_HANDLER = MessageHandler(Filters.all & ~Filters.status_update & Filters.group, check_flood)
 SET_FLOOD_HANDLER = CommandHandler("setflood", set_flood, pass_args=True, filters=Filters.group)
