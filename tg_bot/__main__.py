@@ -19,8 +19,10 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-ʜᴇʟʟᴏ [✅](https://telegra.ph/file/dc456981e8395e1551114.jpg) {}, ᴀᴍ {}
+ʜᴇʟʟᴏ [✅](https://telegra.ph/file/dc456981e8395e1551114.jpg) {}, ᴀᴍ 𝙆𝞝𝙇𝙇𝞤
+
 ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
+
 ғᴏʀ ᴍᴏʀᴇ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ.
 
 
@@ -31,7 +33,7 @@ PM_START_TEXT = """
 """
 
 HELP_STRINGS = """
-ʜᴇʏ ɪᴛᴢ ᴍᴇ *{}*.
+ʜᴇʏ[✅](https://telegra.ph/file/b2e07b2712a4fb4859c3a.jpg) ɪᴛᴢ ᴍᴇ *{}*.
 ᴄᴏᴍᴍᴀɴᴅs:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
@@ -134,7 +136,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="ᴅᴇᴠ", url="https://t.me/alavalaathy")],
                      
-                     [InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ladz_bothub"), InlineKeyboardButton(text="ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/teamladz_bothub"), InlineKeyboardButton(text="ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ᴀʟɪᴠᴇ...")
