@@ -280,7 +280,7 @@ An example of promoting someone to admins:
 `/promote @username`; this promotes a user to admins.
 """
 
-__mod_name__ = "Admin"
+__mod_name__ = "ᴀᴅᴍɪɴ"
 
 PIN_HANDLER = CommandHandler("pin", pin, pass_args=True, filters=Filters.group)
 UNPIN_HANDLER = CommandHandler("unpin", unpin, filters=Filters.group)
