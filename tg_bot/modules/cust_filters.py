@@ -405,7 +405,7 @@ doin?
 
 """
 
-__mod_name__ = "Filters"
+__mod_name__ = "ғɪʟᴛᴇʀ"
 
 FILTER_HANDLER = CommandHandler("filter", filters)
 STOP_HANDLER = CommandHandler("stop", stop_filter)
