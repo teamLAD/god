@@ -70,7 +70,7 @@ I remove messages starting with a /command in groups and supergroups.
 - /rmcmd <on/off>: when someone tries to send a @BlueTextBot message, I will try to delete that!
 """
 
-__mod_name__ = "anticommand"
+__mod_name__ = "ᴀɴᴛɪ-ᴄᴍᴅ"
 
 DEL_REM_COMMANDS = CommandHandler("rmcmd", rem_cmds, pass_args=True, filters=Filters.group)
 REM_SLASH_COMMANDS = MessageHandler(Filters.command & Filters.group, rem_slash_commands)
