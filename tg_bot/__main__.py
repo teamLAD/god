@@ -33,7 +33,7 @@ PM_START_TEXT = """
 """
 
 HELP_STRINGS = """
-ʜᴇʏ[✅](https://telegra.ph/file/b2e07b2712a4fb4859c3a.jpg) ɪᴛᴢ ᴍᴇ *{}*.
+ʜᴇʏ[✅](https://telegra.ph/file/8fc6e84386b1eed4f7d44.jpg) ɪᴛᴢ ᴍᴇ *{}*.
 ᴄᴏᴍᴍᴀɴᴅs:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
