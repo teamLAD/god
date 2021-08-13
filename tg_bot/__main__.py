@@ -19,8 +19,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-ʜᴇʟʟᴏ [✅](https://telegra.ph/file/eb51a7317630a724c8e29.jpg) {}, ᴀᴍ {}!
-
+ʜᴇʟʟᴏ [✅](https://telegra.ph/file/dc456981e8395e1551114.jpg) {}, ᴀᴍ {}
+ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
+ғᴏʀ ᴍᴏʀᴇ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ.
 
 
 
