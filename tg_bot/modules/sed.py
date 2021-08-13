@@ -109,7 +109,7 @@ If you want to use these characters, make sure you escape them!
 eg: \\?.
 """.format(telegram.MAX_MESSAGE_LENGTH)
 
-__mod_name__ = "Sed/Regex"
+__mod_name__ = "sᴇᴅ"
 
 
 SED_HANDLER = DisableAbleRegexHandler(r's([{}]).*?\1.*'.format("".join(DELIMITERS)), sed, friendly="sed")
