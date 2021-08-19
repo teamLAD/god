@@ -133,9 +133,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="ᴅᴇᴠ", url="https://t.me/alavalaathy")],
-                     
-                     [InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/teamladz_bothub"), InlineKeyboardButton(text="ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                    [[InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/{}?startgroup=true".format(bot.username))],
+                     [InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/TEAM_LAD"),  InlineKeyboardButton(text="ʟᴏɢS", url="https://t.me/ladz_logs")],
+
+          
+                     [InlineKeyboardButton(text="ᴅᴇᴠ", url="https://t.me/alavalaathy), InlineKeyboardButton(text="ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ᴀʟɪᴠᴇ...")
