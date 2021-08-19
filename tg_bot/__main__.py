@@ -19,11 +19,10 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-ʜᴇʟʟᴏ [✅](https://telegra.ph/file/dc456981e8395e1551114.jpg) {}, ᴀᴍ 𝙆𝞝𝙇𝙇𝞤
-
-ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
-
-ғᴏʀ ᴍᴏʀᴇ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ.
+ʜᴇʟʟᴏ [✅](https://telegra.ph/file/8fc6e84386b1eed4f7d44.jpg) {}, ᴀᴍ 𝙆𝞝𝙇𝙇𝞤
+▬▭▬▭▬▭▬▭▬▭▬
+𒐬ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
+𒐬ғᴏʀ ᴍᴏʀᴇ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ.
 
 
 
@@ -33,7 +32,7 @@ PM_START_TEXT = """
 """
 
 HELP_STRINGS = """
-ʜᴇʏ[✅](https://telegra.ph/file/8fc6e84386b1eed4f7d44.jpg) ɪᴛᴢ ᴍᴇ *{}*.
+ʜᴇʏ[✅](https://telegra.ph/file/64ae2e77e5b55468e904c.jpg) ɪᴛᴢ ᴍᴇ *{}*.
 ᴄᴏᴍᴍᴀɴᴅs:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
