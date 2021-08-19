@@ -137,7 +137,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                      [InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/TEAM_LAD"),  InlineKeyboardButton(text="ʟᴏɢS", url="https://t.me/ladz_logs")],
 
           
-                     [InlineKeyboardButton(text="ᴅᴇᴠ", url="https://t.me/alavalaathy), InlineKeyboardButton(text="ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="ᴅᴇᴠ", url="https://t.me/alavalaathy"), InlineKeyboardButton(text="ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ᴀʟɪᴠᴇ...")
